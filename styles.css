@@ -1,0 +1,26 @@
+#navbar {
+    position: fixed;
+    left: 0;
+    padding: 20px;
+}
+
+#navbar header {
+    text-decoration: none;
+    font-size: 1.618em;
+    margin-bottom: 7px;
+}
+
+#navbar a {
+    display: block;
+    margin-bottom: 12px;
+}
+
+#main-doc {
+    margin-left: 200px;
+}
+
+@media (max-height: 600px) {
+    .main-section {
+        font-size: .7em;
+    }
+}
