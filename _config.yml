@@ -1,0 +1,3 @@
+theme: jekyll-theme-minimal
+title: Titanis
+description: Drift detection and machine learning library for Apache Spark Structured Streaming
