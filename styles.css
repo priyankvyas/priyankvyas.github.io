@@ -1,26 +1,66 @@
 #navbar {
+    background-color: #515052;
     position: fixed;
     left: 0;
+    top: 0;
     padding: 20px;
+    color: #fffffa;
+    height: 100%;
 }
 
 #navbar header {
-    text-decoration: none;
     font-size: 1.618em;
-    margin-bottom: 7px;
+    margin-bottom: 20px;
+    color: #fffffa;
+    text-decoration: none;
 }
 
 #navbar a {
+    text-decoration: none;
     display: block;
     margin-bottom: 12px;
+    color: #fffffa;
 }
 
 #main-doc {
+    background-color: #fffffa;
     margin-left: 200px;
 }
 
-@media (max-height: 600px) {
-    .main-section {
-        font-size: .7em;
-    }
+.main-section {
+    margin-top: 20px;
+}
+
+#heading_1 {
+    color: #333138;
+    font-size: 2em;
+}
+
+#heading_2 {
+    color: #333138;
+    font-size: 1.6em;
+}
+
+#text_1 {
+    color: #000103;
+    font-size: 1.2em;
+    margin-right: 20px;
+}
+
+#text_2 {
+    color: #000103;
+    font-size: 1.1em;
+    margin-right: 20px;
+}
+
+#next_page {
+    font-size: 1.1em;
+    float: right;
+    margin-right: 20px;
+    text-align: right;
+}
+
+#next_page_title {
+    color: #333138;
+    font-size: 1.1em;
 }
